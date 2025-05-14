@@ -1,7 +1,7 @@
 package nseioia;
 import java.util.Scanner;
 
-public class login {
+public class login{
 public String email;
 public String senha;
 public int cl;
@@ -48,7 +48,7 @@ public int cl;
     	 if (se.equals(senha)) {
 			System.out.println("certo");
 			produtos textosla = new produtos();
-		       textosla.produtos();
+		       textosla.escolhaprod();
     	 }      
     	 else {
     		 
@@ -63,7 +63,7 @@ public int cl;
   
 
 				produtos textosla = new produtos();
-			       textosla.produtos();  }  
+			       textosla.escolhaprod();  }  
      
 	}
 }
